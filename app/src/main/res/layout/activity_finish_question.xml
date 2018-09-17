@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="21sp"
+        android:text=""
+        android:padding="12dp"
+        android:layout_marginBottom="60dp"
+        android:id="@+id/score_finish"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2A48FF"
+        android:textColor="#fff"
+        android:text="Try again"
+        android:padding="8dp"
+        android:id="@+id/bt_try_again"/>
+</LinearLayout>
